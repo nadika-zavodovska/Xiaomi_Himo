@@ -261,3 +261,21 @@ body {
 }
 
 /* #endregion Characteristics */
+
+/* #region Slider */
+.slider{
+  margin-bottom: 50px;
+}
+.slider__item .slick-dots{
+  top: 0;
+  left: 0;
+}
+.slider__item{
+  padding-left: 50px;
+}
+
+/* #endregion Slider */
+
+.price{
+  margin-bottom: 100px;
+}
