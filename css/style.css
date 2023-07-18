@@ -42,7 +42,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
+/* #region Menu */
 .menu {
   margin-right: 70px;
 }
@@ -66,11 +66,12 @@ body {
   background-color: #131313;
   color: #fff;
 }
+/* #endregion Menu */
 
 /* #region Bike slider */
 
 .bike {
-  padding: 100px 0 150px;
+  padding: 100px 0 0;
 }
 
 .bike__inner {
@@ -114,6 +115,10 @@ body {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.1em;
+  transition: all .3s;
+}
+.bike__link:hover{
+  background-color: #ff4040;
 }
 
 .bike-slider .slick-dots {
@@ -177,7 +182,8 @@ body {
 /* #endregion Bike slider */
 
 .info {
-  margin-bottom: 150px;
+  padding-top: 150px;
+  margin-bottom: 50px;
 }
 
 .info__inner {
@@ -214,6 +220,7 @@ body {
 
 .characteristics {
   margin-bottom: 150px;
+  padding-top: 100px;
 }
 
 .characteristics__head {
@@ -381,6 +388,7 @@ body {
   border-radius: 30px;
   width: 80px;
   height: 12px;
+  cursor: pointer;
 }
 .form__radio-style-grey{
   background: #6F6F6F;
@@ -403,6 +411,10 @@ body {
   line-height: 24px;
   letter-spacing: 1.1em;
   cursor: pointer;
+  transition: all .3s;
+}
+.form__btn:hover{
+  background-color: #FF4040;
 }
 
 .footer{
